@@ -3,8 +3,8 @@ import React from "react";
 import { Boxes } from "@/app/components/ui/background-boxes";
 import { useState ,FormEvent } from "react";
 import { cn } from "../utils/cn";
-const page = () => {
-    const [email, setEmail] = useState('');
+const Page = () => {
+  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
@@ -54,4 +54,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

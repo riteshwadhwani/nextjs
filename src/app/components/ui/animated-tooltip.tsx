@@ -75,7 +75,7 @@ export const AnimatedTooltip = ({
               <div className="text-white text-xs">{item.designation}</div>
             </motion.div>
           )}
-          <img
+          <Image
             onMouseMove={handleMouseMove}
             height={100}
             width={100}
